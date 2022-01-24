@@ -1168,11 +1168,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\selll\\Documents\\Rep\\MovieApp\\MovieApp\\MovieApp.csproj",
+      "projectUniqueName": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj",
       "projectName": "MovieApp",
-      "projectPath": "C:\\Users\\selll\\Documents\\Rep\\MovieApp\\MovieApp\\MovieApp.csproj",
+      "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj",
       "packagesPath": "C:\\Users\\selll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\selll\\Documents\\Rep\\MovieApp\\MovieApp\\obj\\",
+      "outputPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

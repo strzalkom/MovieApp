@@ -26,3 +26,5 @@ C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\XamlC.st
 C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
 C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
 C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\AddPage.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs

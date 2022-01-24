@@ -39,7 +39,7 @@ namespace MovieApp
 
         private void Show_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushModalAsync(new MovieList());
+            //Navigation.PushModalAsync(new MovieList());
         }
     }
 }

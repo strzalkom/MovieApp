@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmfZBJA5JoO+C49P8rcw/sUfDXj10z/EoYMg0dpYIPBk5W5BfuDINaZtqwkS0VaQ5zU6e0fnylnB1H0HNnduMw==",
+  "dgSpecHash": "VYMFRbuszla361AemPCUIJkWBZ5C8MgaoPsQd8fgMQVqv5VfV8P35b1YervdH5aUMxMA1S4reLdBAmdhWhPc/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\selll\\Documents\\Rep\\MovieApp\\MovieApp\\MovieApp.csproj",
+  "projectFilePath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\selll\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\selll\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
