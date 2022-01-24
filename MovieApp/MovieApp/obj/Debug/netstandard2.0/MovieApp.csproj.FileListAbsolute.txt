@@ -12,3 +12,17 @@ C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.deps.json
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.dll
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\bin\Debug\netstandard2.0\ref\MovieApp.dll
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.AssemblyReference.cache
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfoInputs.cache
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfo.cs
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
+C:\Users\selll\Documents\Rep\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
