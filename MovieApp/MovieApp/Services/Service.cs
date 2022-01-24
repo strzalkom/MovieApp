@@ -22,7 +22,19 @@ namespace MovieApp
 		{
 			List<Movie> popularMovies = new List<Movie>();
 
-			
+			var uri = new Uri("https://api.themoviedb.org/3/movie/popular?api_key=" + Keys.API_KEY);
+			var response = await client.GetAsync(uri);
+
+			if (response.IsSuccessStatusCode)
+			{
+				var content = await response.Content.ReadAsStringAsync();
+
+				JObject body = JObject.Parse(content);
+				string resultsString = body.SelectToken("results").ToString();
+				popularMovies = JsonConvert.DeserializeObject<List<Movie>>(resultsString);
+
+
+			}
 
 			return popularMovies;
 		}
