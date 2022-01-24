@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{EA12CCE7-69AB-405F-89F5-6E1F4119CC8F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieApp/Models/Movie.cs">
+    <Files>
+      <File FileName="MovieApp/Models/Movie.cs" Line="18" Column="4" />
+      <File FileName="MovieApp/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="MovieApp/TabLayout.cs" Line="10" Column="12" />
+      <File FileName="MovieApp/App.xaml" Line="1" Column="1" />
+      <File FileName="MovieApp/Services/Service.cs" Line="1" Column="1" />
+      <File FileName="MovieApp/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieApp" expanded="True">
+            <Node name="MovieApp" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Movie.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieApp.Android PreferredExecutionTarget="Android.Pixel_2_API_29" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
