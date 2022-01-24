@@ -2334,33 +2334,42 @@
     ]
   },
   "packageFolders": {
-    "/Users/mateuszstrzalko/.nuget/packages/": {}
+    "C:\\Users\\selll\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mateuszstrzalko/Downloads/Project-6/MovieApp/MovieApp.Android/MovieApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.Android\\MovieApp.Android.csproj",
       "projectName": "MovieApp.Android",
-      "projectPath": "/Users/mateuszstrzalko/Downloads/Project-6/MovieApp/MovieApp.Android/MovieApp.Android.csproj",
-      "packagesPath": "/Users/mateuszstrzalko/.nuget/packages/",
-      "outputPath": "/Users/mateuszstrzalko/Downloads/Project-6/MovieApp/MovieApp.Android/obj/",
+      "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.Android\\MovieApp.Android.csproj",
+      "packagesPath": "C:\\Users\\selll\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/Users/mateuszstrzalko/.config/NuGet/NuGet.Config"
+        "C:\\Users\\selll\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.nuget.org/api/v2": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "/Users/mateuszstrzalko/Downloads/Project-6/MovieApp/MovieApp/MovieApp.csproj": {
-              "projectPath": "/Users/mateuszstrzalko/Downloads/Project-6/MovieApp/MovieApp/MovieApp.csproj"
+            "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj": {
+              "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj"
             }
           }
         }
