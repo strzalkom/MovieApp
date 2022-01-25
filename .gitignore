@@ -5,15 +5,15 @@
 MovieApp\.vs
 bin\
 obj\
-MovieApp\MovieApp\bin
-MovieApp/MovieApp/obj/
-MovieApp\MovieApp\.vs
-MovieApp\MovieApp.Android\bin
-MovieApp\MovieApp.Android\obj
-MovieApp\MovieApp.Android\.vs
-MovieApp\MovieApp.iOS\bin
-MovieApp\MovieApp.iOS\obj
-MovieApp\MovieApp.iOS\.vs
+MovieApp\MovieApp\bin\
+MovieApp\MovieApp\obj\
+MovieApp\MovieApp\.vs\
+MovieApp\MovieApp.Android\bin\
+MovieApp\MovieApp.Android\obj\
+MovieApp\MovieApp.Android\.vs\
+MovieApp\MovieApp.iOS\bin\
+MovieApp\MovieApp.iOS\obj\
+MovieApp\MovieApp.iOS\.vs\
 *.userprefs
 .packages
 
