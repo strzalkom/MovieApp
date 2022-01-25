@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MovieApp.Models;
+using MovieApp.ViewModels;
 using SQLite;
 
 using Xamarin.Forms;
@@ -13,23 +15,28 @@ namespace MovieApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MovieList : ContentPage
     {
+
         public MovieList()
         {
             InitializeComponent();
-          
+            BindingContext = new MovieListViewModel();
+
+
+
         }
 
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-            {
-                conn.CreateTable<Movie>();
-                var posted = conn.Table<Movie>().ToList();
-                MovieListView.ItemsSource = posted;
-            }
+        //protected override void OnAppearing()
+        //{
+        //    base.OnAppearing();
+        //    using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+        //    {
+               
+        //        var posted = conn.Table<WatchLaterMovies>().ToList();
+        //        MovieListView.ItemsSource = posted;
+                
+        //    }
         
-        }
+        //}
 
     }
 }
