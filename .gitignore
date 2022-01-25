@@ -1,0 +1,7 @@
+bin/
+obj/
+MovieApp/MovieApp/bin/
+MovieApp/MovieApp/obj/
+*.userprefs
+.packages
+
