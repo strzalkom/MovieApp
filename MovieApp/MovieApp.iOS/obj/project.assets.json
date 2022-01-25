@@ -1997,11 +1997,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp.iOS\\MovieApp.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.iOS\\MovieApp.iOS.csproj",
       "projectName": "MovieApp.iOS",
-      "projectPath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp.iOS\\MovieApp.iOS.csproj",
+      "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.iOS\\MovieApp.iOS.csproj",
       "packagesPath": "C:\\Users\\selll\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp.iOS\\obj\\",
+      "outputPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2024,8 +2024,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj": {
-              "projectPath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj"
+            "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj": {
+              "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj"
             }
           }
         }

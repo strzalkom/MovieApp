@@ -36,3 +36,22 @@ C:\Users\selll\Desktop\ProjectFinal do wrzucenia\Project\MovieApp\MovieApp\obj\D
 C:\Users\selll\Desktop\ProjectFinal do wrzucenia\Project\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
 C:\Users\selll\Desktop\ProjectFinal do wrzucenia\Project\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
 C:\Users\selll\Desktop\ProjectFinal do wrzucenia\Project\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.deps.json
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.dll
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\bin\Debug\netstandard2.0\ref\MovieApp.dll
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\bin\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.AssemblyReference.cache
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\About.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\AddPage.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\DetailPage.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\MovieList.xaml.g.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfoInputs.cache
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.AssemblyInfo.cs
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb

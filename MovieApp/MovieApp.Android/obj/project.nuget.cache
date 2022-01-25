@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hF/2U0sCgWE9S7sh1qhaYaa3O8N2Rv0JazsDvLliXcV1vdHhAJ6P36MKJnhfb2wulP+BddZIGvDncWUdhUD+tw==",
+  "dgSpecHash": "rt69n4Vw+VM1VPVltpQcx5lycQTuUkny8q9Gz6G9bwnLeBgrhIWI7vu47/frfdUyxsbcDrMCKaqJgqBZbm/L+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp.Android\\MovieApp.Android.csproj",
+  "projectFilePath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp.Android\\MovieApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\selll\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\selll\\.nuget\\packages\\sqlite-net\\1.6.292\\sqlite-net.1.6.292.nupkg.sha512",
