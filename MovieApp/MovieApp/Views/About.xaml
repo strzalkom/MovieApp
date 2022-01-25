@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       x:Class="MovieApp.About">
+    <StackLayout Margin="20,50,20,20">
+        <Image Source="logo.png" HorizontalOptions="Center" HeightRequest="80"/>
+        <Label Text="Group Members:" FontSize="Small" FontAttributes="Bold" TextColor="Black"/>
+        <Label Text="   1). Maciej Czyż" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+        <Label Text="   1). Mateusz Strzałko" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+        <Label Text="   1). Jakub Blaźlik" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+        
+        <Label Text="Project Title:" FontSize="Small" FontAttributes="Bold" TextColor="Black" Margin="0,20,0,0"/>
+        <Label Text="       Movie App" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+        
+        <Label Text="Submission Date:" FontSize="Small" FontAttributes="Bold" TextColor="Black" Margin="0,20,0,0"/>
+        <Label Text="       22 January 2022" FontSize="Small" FontAttributes="Bold" TextColor="Black"></Label>
+      
+
+
+    </StackLayout>
+</ContentPage>
