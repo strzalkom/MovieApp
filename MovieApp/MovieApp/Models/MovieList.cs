@@ -16,5 +16,11 @@ namespace MovieApp.Models
 		public string Backdrop_path { get; set; }
 		[PrimaryKey, AutoIncrement]
 		public int Id { get; set; }
+
+		public MovieListModel(string Title, string Overview)
+		{
+			this.Title = Title;
+			this.Overview = Overview;
+		}
 	}
 }

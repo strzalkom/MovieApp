@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using MovieApp.Models;
 using MovieApp.ViewModels;
 using SQLite;
+using System.Diagnostics;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -25,18 +26,31 @@ namespace MovieApp
 
         }
 
-        //protected override void OnAppearing()
-        //{
-        //    base.OnAppearing();
-        //    using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
-        //    {
-               
-        //        var posted = conn.Table<WatchLaterMovies>().ToList();
-        //        MovieListView.ItemsSource = posted;
-                
-        //    }
-        
-        //}
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+
+
+
+        }
+        void OnMovieSelected2(object sender, EventArgs args)
+        {
+            var list = (ListView)sender;
+            var selected = list.SelectedItem as MovieListModel;
+
+            list.SelectedItem = null;
+
+            Debug.WriteLine(selected.Title);
+
+            var detailPage = new DetailPage();
+
+            detailPage.BindingContext = selected;
+
+            Navigation.PushModalAsync(detailPage);
+
+        }
+
 
     }
 }

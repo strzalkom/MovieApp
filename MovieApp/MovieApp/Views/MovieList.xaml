@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:MovieApp"
              x:Class="MovieApp.MovieList" >
-    <ListView x:Name="MovieListView" IsVisible="True" RowHeight="150" SelectionMode="None" ItemsSource="{Binding MovieList, Mode=TwoWay}">
+    <ListView x:Name="MovieListView" ItemTapped="OnMovieSelected2" SeparatorVisibility="None" RowHeight="150" ItemsSource="{Binding MovieList, Mode=TwoWay}">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
@@ -24,8 +24,7 @@
 
                             <Label Text="{Binding Title}" />
                             <Label Text="{Binding Category}"/>
-                            <Label Text="Rating"/>
-                            <Label Text="{Binding Vote_average}"/>
+                            <Label/>
                             <local:LongLabel 
 								Text="{Binding Overview}" 
 								FontSize="12"

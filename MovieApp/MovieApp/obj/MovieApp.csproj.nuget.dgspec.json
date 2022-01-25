@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj": {}
+    "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj": {
+    "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj",
+        "projectUniqueName": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj",
         "projectName": "MovieApp",
-        "projectPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\MovieApp.csproj",
+        "projectPath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\MovieApp.csproj",
         "packagesPath": "C:\\Users\\selll\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\selll\\Desktop\\repo\\MovieApp\\MovieApp\\MovieApp\\obj\\",
+        "outputPath": "C:\\Users\\selll\\Desktop\\ProjectFinal do wrzucenia\\Project\\MovieApp\\MovieApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -55,6 +55,14 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xam.Plugins.Notifier": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

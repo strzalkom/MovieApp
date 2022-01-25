@@ -15,7 +15,7 @@ namespace MovieApp
 		public MainPage()
 		{
 			InitializeComponent();
-			//BindingContext=new MainPageViewModel();
+			BindingContext=new MainPageViewModel();
 			
 
 
@@ -38,11 +38,11 @@ namespace MovieApp
 
 			Debug.WriteLine(selected.Title);
 
-			//var detailPage = new DetailPage();
+			var detailPage = new DetailPage();
 
-			//detailPage.BindingContext = selected;
+			detailPage.BindingContext = selected;
 
-			//Navigation.PushModalAsync(detailPage);
+			Navigation.PushModalAsync(detailPage);
 
 		}
 

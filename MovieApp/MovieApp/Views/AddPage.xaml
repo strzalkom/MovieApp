@@ -1,14 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MovieApp.AddPage" Padding="20,100,20,20" >
-   
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MovieApp.AddPage" Padding="20,20,20,20" >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="CornerRadius" Value="5"/>
+
+                <Setter Property="ContentLayout" Value="Top,10"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontSize" Value="10"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BorderColor" Value="#ff8c00"/>
+
+
+                <Setter Property="TextTransform" Value="None"/>
+
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Add Movie Title" />
-            <Entry x:Name="title" Placeholder="Title" />
-            <Label Text="Add Overview" />
-            <Entry x:Name="overview" />
-            <Button Text="ADD" Clicked="AddMovie_Clicked"/>
-            <Button Text="Show my Movies" Clicked="Show_Clicked"/>
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="0" Spacing="0" Margin="0">
+
+                <Label Text="Add Movie Title" />
+                <Entry x:Name="title" Placeholder="Title" Text="{Binding movie.Title, Mode=TwoWay}" />
+                <Label Text="Add Overview" />
+                <Entry x:Name="overview" Text="{Binding movie.Overview, Mode=TwoWay}"/>
+                <Image Source="{Binding imageSource, Mode=TwoWay}" HorizontalOptions="FillAndExpand" HeightRequest="100"/>
+                <Label Text="Choose Image:" />
+                <Grid Padding="10"  RowDefinitions="Auto,Auto,Auto,Auto" ColumnDefinitions="*,*" ColumnSpacing="10" Margin="10" >
+
+                    <Button Style="{StaticResource ButtonStyle}"
+                               BackgroundColor="#FFD1BB"
+                                Text="From Gallery"
+                               ImageSource="Gallery"
+                               Command="{Binding pickPhoto}"
+                                Grid.Column="0"
+                                Grid.Row="0"/>
+                    <Button Style="{StaticResource ButtonStyle}"
+                                BackgroundColor="#A1BF91"
+                                Text="Using Camra"
+                              ImageSource="Camra"
+                               Command="{Binding takePhoto}"
+                                Grid.Column="1"
+                                Grid.Row="0"/>
+                </Grid>
+                <Button Text="ADD" Command="{Binding AddMovieCmd}"/>
+                <Button Text="Show my Movies" Command="{Binding ShowCmd}"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

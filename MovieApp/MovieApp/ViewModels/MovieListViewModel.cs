@@ -46,7 +46,7 @@ namespace MovieApp.ViewModels
                 var movielst = conn.Table<Movie>().ToList();
                 foreach (Movie movie in movielst)
                 {
-                    movieList = new MovieListModel();
+                    movieList = new MovieListModel(movie.Title, movie.Overview);
                     movieList.Title = movie.Title;
                     movieList.Id = movie.Id;
                     movieList.Overview = movie.Overview;
@@ -66,7 +66,7 @@ namespace MovieApp.ViewModels
                 var moviesLst = conn.Table<WatchLaterMovies>().ToList();
                 foreach (WatchLaterMovies movie1 in moviesLst)
                 {
-                    movieList = new MovieListModel();
+                    movieList = new MovieListModel(movie1.Title, movie1.Overview);
                     movieList.Title = movie1.Title;
                     movieList.Id = movie1.Id;
                     movieList.Overview = movie1.Overview;
