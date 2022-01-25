@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.IO;
+using Plugin.Media;
 
 namespace MovieApp.Droid
 {
@@ -19,7 +20,8 @@ namespace MovieApp.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
-
+            CrossMedia.Current.Initialize();
+           
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             string dbName = "movie_db.sqlite";
