@@ -2,6 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,xamarinstudio
 
 ### XamarinStudio ###
+MovieApp\.vs
 bin\
 obj\
 MovieApp\MovieApp\bin\
