@@ -46,8 +46,12 @@
                                 Grid.Column="1"
                                 Grid.Row="0"/>
                 </Grid>
-                <Button Text="ADD" Command="{Binding AddMovieCmd}"/>
+                <Button Text="ADD to My Movie" Command="{Binding AddMovieCmd}"/>
                 <Button Text="Show my Movies" Command="{Binding ShowCmd}"/>
+
+                <Button Text="ADD to Community Movie" Command="{Binding AddMovieCommunity}"/>
+                <Button Text="Show Community Movies" Command="{Binding ShowCommunityMovie}"/>
+                
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
