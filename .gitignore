@@ -6,7 +6,7 @@ MovieApp\.vs
 bin\
 obj\
 MovieApp\MovieApp\bin
-MovieApp\MovieApp\obj
+MovieApp/MovieApp/obj/
 MovieApp\MovieApp\.vs
 MovieApp\MovieApp.Android\bin
 MovieApp\MovieApp.Android\obj
