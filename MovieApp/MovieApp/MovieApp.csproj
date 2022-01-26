@@ -39,4 +39,10 @@
   <ItemGroup>
     <Folder Include="SQLite\Net\Platform\XamarinAndroid\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\CommunityPage.xaml.cs">
+      <DependentUpon>CommunityPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>

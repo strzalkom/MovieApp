@@ -182,25 +182,13 @@ namespace MovieApp.ViewModels
             }
         }
 
-        public Command AddMovieCommunity
-        {
-            get
-            {
-                return new Command(() =>
-                {
-                    Application.Current.MainPage.DisplayAlert("Sorry", "This function will be added in the future", "ok");
-
-                });
-            }
-        }
-
         public Command ShowCommunityMovie
         {
             get
             {
                 return new Command(() =>
                 {
-                    Application.Current.MainPage.DisplayAlert("Sorry", "This function will be added in the future", "ok");
+                    Application.Current.MainPage.Navigation.PushModalAsync(new CommunityPage());
 
                 });
             }

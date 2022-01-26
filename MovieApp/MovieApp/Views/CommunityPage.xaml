@@ -3,10 +3,10 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:local="clr-namespace:MovieApp" 
 	Title="MovieApp"
-	x:Class="MovieApp.MainPage">
+	x:Class="MovieApp.CommunityPage">
 
     <ListView
-		x:Name="moviesListView" 
+		x:Name="CommunityPageListView" 
 		ItemTapped="OnMovieSelected"
 		SeparatorVisibility="None"
 		RowHeight="150"
@@ -41,14 +41,10 @@
 								LineBreakMode="TailTruncation"/>
 
                         </StackLayout>
-                        <StackLayout>
-                            <Button Text="ADD to my Movie" WidthRequest="110" HeightRequest="55" Command="{Binding Path=BindingContext.Watch, Source={x:Reference moviesListView}, Mode=TwoWay}" CommandParameter="{Binding}" />
-                            <Button Text="ADD to Community" WidthRequest="110" HeightRequest="55" />
-                        </StackLayout>
                     </StackLayout>
-                    
+
                 </ViewCell>
-                
+
             </DataTemplate>
         </ListView.ItemTemplate>
 

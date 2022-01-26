@@ -49,7 +49,6 @@
                 <Button Text="ADD to My Movie" Command="{Binding AddMovieCmd}"/>
                 <Button Text="Show my Movies" Command="{Binding ShowCmd}"/>
 
-                <Button Text="ADD to Community Movie" Command="{Binding AddMovieCommunity}"/>
                 <Button Text="Show Community Movies" Command="{Binding ShowCommunityMovie}"/>
                 
             </StackLayout>

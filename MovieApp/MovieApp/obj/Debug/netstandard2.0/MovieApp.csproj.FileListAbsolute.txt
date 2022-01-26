@@ -55,3 +55,4 @@ C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.dll
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\ref\MovieApp.dll
 C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\MovieApp.pdb
+C:\Users\selll\Desktop\repo\MovieApp\MovieApp\MovieApp\obj\Debug\netstandard2.0\Views\CommunityPage.xaml.g.cs
