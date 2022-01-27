@@ -75,29 +75,7 @@ namespace MovieApp
 				Console.WriteLine(comMovies[0].Title);
 
 			}
-			
-			//Console.WriteLine(response[0]);
-			//Console.WriteLine(response[0].title);
 
-			/*var uri = new Uri("https://api.themoviedb.org/3/movie/popular?api_key=" + Keys.API_KEY);
-			var response = await client.GetAsync(uri);
-
-			if (response.IsSuccessStatusCode)
-			{
-				var content = await response.Content.ReadAsStringAsync();
-
-				JObject body = JObject.Parse(content);
-				string resultsString = body.SelectToken("results").ToString();
-				comMovies = JsonConvert.DeserializeObject<List<Movie>>(resultsString);
-
-
-			}
-			Console.WriteLine("Standard Numeric Format Specifiers");
-			Console.WriteLine(comMovies[0].Title); //Spider-Man: No Way Home
-			Console.WriteLine(comMovies[0].Vote_average); //8.5
-			Console.WriteLine(comMovies[0].Overview); //Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.
-			Console.WriteLine(comMovies[0].Poster_path); ///1g0dhYtq4irTY1GPXvft6k4YLjm.jpg
-			//Console.WriteLine(string.Join("\t", popularMovies));*/
 			return comMovies;
 		}
 

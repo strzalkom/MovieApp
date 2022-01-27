@@ -43,7 +43,7 @@
                         </StackLayout>
                         <StackLayout>
                             <Button Text="ADD to my Movie" WidthRequest="110" HeightRequest="55" Command="{Binding Path=BindingContext.Watch, Source={x:Reference moviesListView}, Mode=TwoWay}" CommandParameter="{Binding}" />
-                            <Button Text="ADD to Community" WidthRequest="110" HeightRequest="55" />
+                            <Button Text="ADD to Community" WidthRequest="110" HeightRequest="55" Command="{Binding Path=BindingContext.AddCommunityWatch, Source={x:Reference moviesListView}, Mode=TwoWay}" CommandParameter="{Binding}"  />
                         </StackLayout>
                     </StackLayout>
                     
